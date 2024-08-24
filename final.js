@@ -9,7 +9,7 @@ const myAtropos = Atropos({
     document.getElementById('myButton').addEventListener('click', function () {
       Swal.fire({
         title: 'Gracias por ver el remake de mi primera página',
-        text: 'Espero que les haya gustado, ahora sí, sal de la alerta para redirigirte a despegar.com :)',
+        text: 'Espero que les haya gustado, ahora sí, presiona el boton para redirigirte a despegar.com :)',
         icon: 'info',
         confirmButtonText: 'OK'
       }).then((result) => {
